@@ -1,0 +1,30 @@
+{
+  "name": "Neon Ridge",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "NeonRidgeBootGuard": {
+        "$path": "src/ServerScriptService/NeonRidgeBootGuard.server.lua"
+      },
+      "NeonRidgeWorld": {
+        "$path": "src/ServerScriptService/NeonRidgeWorld.server.lua"
+      },
+      "NeonRidgeVehiclePhysics": {
+        "$path": "src/ServerScriptService/NeonRidgeVehiclePhysics.server.lua"
+      },
+      "NeonRidgeMotoPack": {
+        "$path": "src/ServerScriptService/NeonRidgeMotoPack.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "NeonRidgeClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/NeonRidgeClient.client.lua"
+        }
+      }
+    }
+  }
+}
